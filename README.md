@@ -22,7 +22,7 @@ git checkout curl-8_16_0
 3. Download and apply the patch for the selected version:
 
 ```
-wget -qO - https://raw.githubusercontent.com/eoan-ermine-incubator/curl-i18n-patch/refs/heads/$(git describe)/curl-i18n.patch | git apply
+wget -qO - https://raw.githubusercontent.com/eoan-ermine-incubator/curl-i18n/refs/heads/$(git describe)/curl-i18n.patch | git apply
 ```
 
 4. Build and install curl according to the [curl official documentation](https://curl.se/docs/install.html). 
